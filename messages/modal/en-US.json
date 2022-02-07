@@ -1,0 +1,22 @@
+{
+    "modal": {
+        "Resources": "Resources",
+        "HTML": "The most basic of the front end languages. With it you will create the structures of your designs with a semantic approach. Take advantage of these resources to learn HTML.",
+        "CSS": "Bring your designs to life with the most hated language by fontends. CSS allows you to manage your app's layout however you want, including animations, transitions, and many other magical things. Here are some free css courses, posts and tutorials with which you will be able to perfect yourself in this beautiful language.",
+        "Javascript": "The most popular language in the world, the king of the web. We give you free Javascript courses and tutorials so you can specialize in this incredible language.",
+        "React": "React is the most popular javascript library, and it is also the best option to start your career. You could also use other libraries or frameworks like Vue or Angular, but we are going to recommend React due to its enormous popularity and growth. Here we provide you with some free React courses and tutorials.",
+        "Git": "Version control is a basic and mandatory tool in any software company. Learn Git with these free courses and tutorials.",
+        "Sass": "The most widely used CSS preprocessor on the market. All of us with front end experience have had to use Sass on more than one occasion. We leave you free resources for you to learn it.",
+        "Terminal": "The terminal is a basic tool that will accompany you throughout your career. Mastering it will serve you in many ways in your work. We leave you here free courses and tutorials for you to take your first steps.",
+        "Redux": "Redux is present in the vast majority of React projects. It will help you manage the data of your entire application, serving as a source of truth, tidying up your code.",
+        "Jest": "The most used library for unit tests. It is a very important process in the development and you will have to know this tool sooner or later.",
+        "Tailwind": "In many projects, teams choose to use layout libraries to speed up development. Although it is preferable to use vanilla CSS or Sass whenever possible, more than anything so as not to lose your language skills, it is also true that these kinds of tools are widely used in small projects and in personal side projects.",
+        "Scrum": "Scrum is a work framework created from agile, which is used to organize small teams and improve their productivity and the quality of the outcome.",
+        "Next": "The most important server side rendering framework of the moment. Easy to use and with a lot of depth to make it more complex. Learning Next.js for free is the best decision you can make, here are the courses:",
+        "Testing Library": "Testing Library is a unit test library that runs on top of Jest. It greatly improves the testing experience, and is widely used in current projects.",
+        "Webpack": "Webpack is the most important builder on the market, it is used in frameworks such as React or Angular. In the future, esbuild may replace it; but that will not happen in the short term. Highly recommended to learn webpack when you already have some experience. Take advantage of these free courses and tutorials.",
+        "Leadership": "When the time comes, when you have experience, you will have to lead a team or a jr. These classes are necessary and can also help you get on well with your leaders and understand the priorities of the project.",
+        "GraphQL": "GraphQL is a query language for APIs. Although it is not super necessary for you to know it, it is a great plus for many projects that use it and that need someone with a solid knowledge of GraphQL. On the frontend, you can find libraries like Apolo that will help you interact with the backend in a better way.",
+        "Web3": "Blockchain is the technology of the moment and frontends only need to know Web3.js to get a job in this high-paying sector"
+    }
+}

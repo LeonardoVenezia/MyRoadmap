@@ -1,0 +1,21 @@
+.professions {
+    width: 350px;
+    box-shadow: 2px 2px 5px var(--shadowColor);
+    border-radius: 16px;
+    padding: 16px;
+    margin: 16px;
+    transform: scale(1);
+    transition: all;
+    transition-duration: .3s;
+}
+.professions:hover {
+    box-shadow: 2px 2px 10px var(--shadowColor);
+    transform: scale(1.025);
+}
+.title {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.description {
+    font-size: 22px;
+}

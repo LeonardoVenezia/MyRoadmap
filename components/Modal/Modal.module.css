@@ -1,0 +1,71 @@
+.modal {
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    left: 100%;
+    top: 0;
+    transition: left;
+    transition-duration: .3s;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    border-radius: 24px 0 0 24px;
+    box-shadow: 0 0 10px var(--shadowColor);
+}
+.transition {
+    left: 20%;
+}
+.title {
+    font-size: 40px;
+    text-align: center;
+    padding: 24px 0;
+}
+.description {
+    font-size: 20px;
+}
+.relative {
+    position: relative;
+    padding: 0 10%;
+}
+.close {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    font-size: 40px;
+    transform: scale(1);
+    transition: transform;
+    transition-duration: .5s;
+    cursor: pointer;
+    line-height: 12px;
+}
+.close:hover {
+    transform: scale(1.2);
+}
+.resources {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 24px 0;
+}
+.background {
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    left: 100%;
+    top: 0;
+    transition: background-color;
+    transition-duration: 3s;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.transitionBackground {
+    background-color: var(--shadowColor);
+    left: 0;
+}
+
+@media (max-width: 420px) {
+    .modal {
+        width: 100%;
+    }
+    .transition {
+        left: 0;
+    }
+}

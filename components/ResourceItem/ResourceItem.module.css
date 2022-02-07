@@ -1,0 +1,20 @@
+.li:hover {
+    box-shadow: 5px 5px 10px var(--shadowColor);
+}
+.li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.description {
+    margin-left: 16px;
+}
+.hidden {
+    display: none;
+}
+.data {
+    padding: 16px 0 16px 56px;
+}
+.link:hover {
+    text-decoration: underline;
+}

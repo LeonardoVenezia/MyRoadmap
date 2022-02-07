@@ -1,0 +1,761 @@
+{
+    "HTML": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png",
+                "type": "youtube"
+            },
+            "resources": [
+                {
+                    "text": "HTML Tutorial For Beginners In Hindi (With Notes) 🔥",
+                    "link": "https://www.youtube.com/watch?v=BsDoLVMnmZs&ab_channel=CodeWithHarry"
+                },
+                {
+                    "text": "HTML in 1 hour 🌎 (𝙁𝙧𝙚𝙚)",
+                    "link": "https://www.youtube.com/watch?v=HD13eq_Pmp8"
+                },
+                {
+                    "text": "HTML Crash Course In 30 Minutes",
+                    "link": "https://www.youtube.com/watch?v=XiQ9rjaa2Ow&t=3s&ab_channel=codeSTACKr"
+                },
+                {
+                    "text": "HTML Tutorial for Beginners: HTML Crash Course [2021]",
+                    "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses and reading tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Tutorial básico del programador web: HTML desde cero",
+                    "link": "https://www.aprenderaprogramar.es/index.php?option=com_content&view=article&id=410:informacion-basica-curso-qtutorial-basico-del-programador-web-html-desde-ceroq-cu00700b&catid=69:tutorial-basico-programador-web-html-desde-cero&Itemid=192"
+                }
+            ]
+        }
+    ],
+    "CSS": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "CSS Full Course - From Beginners to Advanced (Zero to Hero Complete Course)",
+                    "link": "https://www.youtube.com/watch?v=dCbctSKvkw4"
+                },
+                {
+                    "text": "CSS Tutorial In Hindi (With Notes) 🔥",
+                    "link": "https://www.youtube.com/watch?v=Edsxf_NBFrw"
+                },
+                {
+                    "text": "CSS Masterclass - Tutorial & Course for Beginners",
+                    "link": "https://www.youtube.com/watch?v=FqmB-Zj2-PA&ab_channel=ChrisCourses"
+                },
+                {
+                    "text": "Learn HTML & CSS in 2022 | Crash Course",
+                    "link": "https://www.youtube.com/watch?v=gXLjWRteuWI&ab_channel=DesignCourse"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses and reading tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Learn CSS by web.dev",
+                    "link": "https://web.dev/learn/css/"
+                },
+                {
+                    "text": "CSS Courses by edx",
+                    "link": "https://www.edx.org/learn/css"
+                }
+            ]
+        }
+    ],
+    "Javascript": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "JavaScript Programming - Full Course",
+                    "link": "https://www.youtube.com/watch?v=jS4aFq5-91M"
+                },
+                {
+                    "text": "JavaScript Full Course 2022 | JavaScript Tutorial For Beginners | JavaScript Developer | Simplilearn",
+                    "link": "https://www.youtube.com/watch?v=_zPNLidkNYk"
+                },
+                {
+                    "text": "Ep20 - Intermediate JavaScript Course",
+                    "link": "https://www.youtube.com/watch?v=8hKo9Xa4cXk"
+                },
+                {
+                    "text": "JavaScript Crash Course [2021]",
+                    "link": "https://www.youtube.com/watch?v=J-S8ieP9L40"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses and reading tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "The Modern JavaScript Tutorial",
+                    "link": "https://javascript.info/"
+                },
+                {
+                    "text": "JavaScript design patterns",
+                    "link": "https://wanago.io/courses/javascript-design-patterns/"
+                },
+                {
+                    "text": "Introduction to JavaScript",
+                    "link": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/"
+                }
+            ]
+        }
+    ],
+    "React": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "React Crash Course for Beginners 2021 - Learn ReactJS from Scratch in this 100% Free Tutorial!",
+                    "link": "https://www.youtube.com/watch?v=Dorf8i6lCuk&ab_channel=Academind"
+                },
+                {
+                    "text": "React Course - Beginner's Tutorial for React JavaScript Library [2022]",
+                    "link": "https://www.youtube.com/watch?v=bMknfKXIFA8"
+                },
+                {
+                    "text": "React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours",
+                    "link": "https://www.youtube.com/watch?v=RVFAyFWO4go"
+                },
+                {
+                    "text": "ReactJS Tutorial for Beginners - Full Course in 20 Hours [2022]",
+                    "link": "https://www.youtube.com/watch?v=0mVbNp1ol_w&ab_channel=CleverProgrammer"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses and reading tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "React Fundamentals by frontarm",
+                    "link": "https://frontarm.com/courses/react-fundamentals/"
+                },
+                {
+                    "text": "Introduction to React by Fullstackopen",
+                    "link": "https://fullstackopen.com/en/part1"
+                }
+            ]
+        }
+    ],
+    "Git": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git",
+                    "link": "https://www.youtube.com/watch?v=Uszj_k0DGsg&ab_channel=freeCodeCamp.org"
+                },
+                {
+                    "text": "Git and GitHub Tutorial For Beginners | Full Course [2021] [NEW]",
+                    "link": "https://www.youtube.com/watch?v=3fUbBnN_H2c"
+                },
+                {
+                    "text": "Git and GitHub Crash Course By Google Coursera | Git and GitHub Tutorial for Beginners",
+                    "link": "https://www.youtube.com/watch?v=PtBr0fpKyFg"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses and reading tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Version Control with Git Udacity",
+                    "link": "https://www.udacity.com/course/version-control-with-git--ud123/"
+                },
+                {
+                    "text": "Learn Git & GitHub by Codeacademy",
+                    "link": "https://www.codecademy.com/learn/learn-git"
+                }
+            ]
+        }
+    ],
+    "Sass": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "SASS Tutorial (build your own CSS library) #1 - Introduction",
+                    "link": "https://www.youtube.com/watch?v=_kqN4hl9bGc&ab_channel=TheNetNinja"
+                },
+                {
+                    "text": "Sass (CSS Preprocessor) Crash Course - CSS with Superpowers",
+                    "link": "https://www.youtube.com/watch?v=fc3IFF4B6Jw&ab_channel=LaithHarb"
+                },
+                {
+                    "text": "React and Sass Tutorial - Intro to SASS",
+                    "link": "https://www.youtube.com/watch?v=kpcjSaRngg8&ab_channel=PedroTech"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Getting Sassy CSS",
+                    "link": "http://www.sassshop.com/#/"
+                },
+                {
+                    "text": "Learn Sass by Codeacademy",
+                    "link": "https://www.codecademy.com/learn/learn-sass"
+                }
+            ]
+        }
+    ],
+    "Redux": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "React Redux (with Hooks) Crash Course",
+                    "link": "https://www.youtube.com/watch?v=9jULHSe41ls"
+                },
+                {
+                    "text": "Learn Redux From Scratch - Redux Full Course",
+                    "link": "https://www.youtube.com/watch?v=ghmJ1CwiShw"
+                },
+                {
+                    "text": "Redux Tutorial (with Redux Toolkit)",
+                    "link": "https://www.youtube.com/watch?v=iBUJVy8phqw"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Fundamentals of Redux Course from Dan Abramov",
+                    "link": "https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867"
+                },
+                {
+                    "text": "Full-Stack Redux Tutorial",
+                    "link": "https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html"
+                }
+            ]
+        }
+    ],
+    "Jest": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Jest Crash Course - Learn How to Test your JavaScript Application",
+                    "link": "https://www.youtube.com/watch?v=ajiAl5UNzBU"
+                },
+                {
+                    "text": "React Testing Crash Course",
+                    "link": "https://www.youtube.com/watch?v=OVNjsIto9xM"
+                },
+                {
+                    "text": "Unit Testing Crash Course - JavaScript with Jest",
+                    "link": "https://www.youtube.com/watch?v=NKw0x-tIhyo&ab_channel=HongLy"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Jest JavaScript Testing Framework",
+                    "link": "https://testautomationu.applitools.com/jest-testing-tutorial/"
+                },
+                {
+                    "text": "{ Testing with Jest. }",
+                    "link": "https://www.rithmschool.com/courses/intermediate-react/testing-with-jest"
+                },
+                {
+                    "text": "Confidently Testing Redux Applications with Jest & TypeScript",
+                    "link": "https://egghead.io/courses/confidently-testing-redux-applications-with-jest-typescript-16e17d9b"
+                }
+            ]
+        }
+    ],
+    "Tailwind": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Build & Deploy a Personal Portfolio with TailwindCSS - 2022 Edition",
+                    "link": "https://www.youtube.com/watch?v=Vp6GC3jKG20&ab_channel=DesignCourse"
+                },
+                {
+                    "text": "Tailwind CSS 3 Crash Course",
+                    "link": "https://www.youtube.com/watch?v=LyRWNJK8I6U&ab_channel=codedamn"
+                },
+                {
+                    "text": "Tailwind Complete Course For Beginner to Advanced - [2021]",
+                    "link": "https://www.youtube.com/watch?v=lZp4salRFFc"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Tailwind CSS Course Online For Free tutorial With Certificate",
+                    "link": "https://www.mindluster.com/certificate/238"
+                }
+            ]
+        }
+    ],
+    "Scrum": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Agile Scrum Full Course in 4 Hours | Agile Scrum Tutorial For Beginners | Scrum Training | Edureka",
+                    "link": "https://www.youtube.com/watch?v=g5zHKHf2a88&ab_channel=edureka%21"
+                },
+                {
+                    "text": "Certified Scrum Master Full Course | Scrum Master Training | Scrum Master Course | Simplilearn",
+                    "link": "https://www.youtube.com/watch?v=YqAZi5poCmo&ab_channel=Simplilearn"
+                },
+                {
+                    "text": "Agile Scrum Foundation: eLearning course - The Predictive Approach",
+                    "link": "https://www.youtube.com/watch?v=_vRXwJCHGZk&ab_channel=Mplaza"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Introduction to Scrum",
+                    "link": "https://scrumalliance.learnupon.com/store/804338-introduction-to-scrum"
+                },
+                {
+                    "text": "Agile PM 101 - Learn the Truth About Agile versus Waterfall",
+                    "link": "https://www.udemy.com/course/learn-the-truth-about-agile-versus-waterfall/"
+                },
+                {
+                    "text": "Agile with Atlassian Jira",
+                    "link": "https://www.coursera.org/learn/agile-atlassian-jira"
+                }
+            ]
+        }
+    ],
+    "TypeScript": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Typescript tutorial - Full Course 2021",
+                    "link": "https://www.youtube.com/watch?v=ZjeSv7_bK-s"
+                },
+                {
+                    "text": "Exploring Advanced TypeScript Concepts - Guards, Utility Functions, and More [Typescript Tutorial]",
+                    "link": "https://www.youtube.com/watch?v=eJ6R1knfsoc&ab_channel=Headway"
+                },
+                {
+                    "text": "TypeScript Crash Course",
+                    "link": "https://www.youtube.com/watch?v=BCg4U1FzODs&ab_channel=TraversyMedia"
+                },
+                {
+                    "text": "TypeScript for beginners (Full Course)",
+                    "link": "https://www.youtube.com/watch?v=lbLi7wlQSho"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Build JavaScript applications using TypeScript",
+                    "link": "https://docs.microsoft.com/en-us/learn/paths/build-javascript-applications-typescript/"
+                },
+                {
+                    "text": "TypeScript Tutorial",
+                    "link": "https://www.classcentral.com/course/youtube-typescript-tutorial-45800/classroom"
+                },
+                {
+                    "text": "TypeScript Fast Crash Course",
+                    "link": "https://www.udemy.com/course/typescript-fast-crash-course/"
+                },
+                {
+                    "text": "Learn TypeScript for free with this interactive Scrimba course",
+                    "link": "https://www.freecodecamp.org/news/want-to-learn-typescript-heres-our-free-22-part-course-21cd9bbb5ef5/"
+                }
+            ]
+        }
+    ],
+    "Next.js": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Next.js Crash Course for Beginners 2021 - Learn NextJS from Scratch in this 100% Free Tutorial!",
+                    "link": "https://www.youtube.com/watch?v=MFuwkrseXVE"
+                },
+                {
+                    "text": "Next.js for Beginners - Full Course",
+                    "link": "https://www.youtube.com/watch?v=1WmNXEVia8I"
+                },
+                {
+                    "text": "[Next JS Course Outline] Complete Next.js Developer in 2022: Zero to Mastery",
+                    "link": "https://www.youtube.com/watch?v=pKCYcyKH_rA&ab_channel=ZeroToMastery"
+                },
+                {
+                    "text": "Next.js Crash Course",
+                    "link": "https://www.youtube.com/watch?v=6HTs8HtZMt0"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Mastering Next.js",
+                    "link": "https://masteringnextjs.com/"
+                },
+                {
+                    "text": "Next JS with React Hooks - Building SSR React Applications",
+                    "link": "https://www.classcentral.com/course/udemy-next-js-react-hooks-27011"
+                },
+                {
+                    "text": "Next js Course Online For Free tutorial With Certificate",
+                    "link": "https://www.mindluster.com/certificate/229"
+                }
+            ]
+        }
+    ],
+    "Testing Library": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "React Testing Library Crash Course",
+                    "link": "https://www.youtube.com/watch?v=GLSSRtnNY0g"
+                },
+                {
+                    "text": "React Testing Library Tutorial",
+                    "link": "https://www.youtube.com/watch?v=7dTTFW7yACQ&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ&ab_channel=TheNetNinja"
+                },
+                {
+                    "text": "React Unit Testing Crash Course - Jest and React Testing Library",
+                    "link": "https://www.youtube.com/watch?v=JGxVzyREaUY&ab_channel=HongLy"
+                },
+                {
+                    "text": "How to Test In React - React Testing Library + Jest Tutorial",
+                    "link": "https://www.youtube.com/watch?v=Vp_76zdHkV8&ab_channel=PedroTech"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Learn React Testing",
+                    "link": "https://www.codecademy.com/learn/learn-react-testing"
+                },
+                {
+                    "text": "Integration Testing in React",
+                    "link": "https://medium.com/expedia-group-tech/integration-testing-in-react-21f92a55a894"
+                }
+            ]
+        }
+    ],
+    "Webpack": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "React Testing Library Crash Course",
+                    "link": "https://www.youtube.com/watch?v=GLSSRtnNY0g"
+                },
+                {
+                    "text": "React Testing Library Tutorial",
+                    "link": "https://www.youtube.com/watch?v=7dTTFW7yACQ&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ&ab_channel=TheNetNinja"
+                },
+                {
+                    "text": "React Unit Testing Crash Course - Jest and React Testing Library",
+                    "link": "https://www.youtube.com/watch?v=JGxVzyREaUY&ab_channel=HongLy"
+                },
+                {
+                    "text": "How to Test In React - React Testing Library + Jest Tutorial",
+                    "link": "https://www.youtube.com/watch?v=Vp_76zdHkV8&ab_channel=PedroTech"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Series: Webpack 4 course",
+                    "link": "https://wanago.io/courses/webpack-4-course/"
+                },
+                {
+                    "text": "Introduction",
+                    "link": "https://survivejs.com/webpack/introduction/"
+                },
+                {
+                    "text": "How to use Webpack with React: an in-depth tutorial",
+                    "link": "https://www.freecodecamp.org/news/learn-webpack-for-react-a36d4cac5060/"
+                }
+            ]
+        }
+    ],
+    "Terminal": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Bash Terminal Course for Beginners | Linux Command Line Tutorial for Beginners",
+                    "link": "https://www.youtube.com/watch?v=UlUMFk6WL8M&ab_channel=SkillsBuildTraining"
+                },
+                {
+                    "text": "Introduction to Linux & Terminal Commands - Full Course for Beginners",
+                    "link": "https://www.youtube.com/watch?v=iwolPf6kN-k&ab_channel=KunalKushwaha"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "{ Rithm School Terminal and UNIX. }",
+                    "link": "https://www.rithmschool.com/courses/terminal"
+                },
+                {
+                    "text": "Command line crash course",
+                    "link": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line"
+                }
+            ]
+        }
+    ],
+    "Leadership": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Leadership Development",
+                    "link": "https://www.youtube.com/watch?v=J_xPT-JbkdM&list=PLc5LhdA8JgZS8UaY9SzWdU83XuW_Mpno2&ab_channel=ArthurBailey"
+                },
+                {
+                    "text": "Free Short Course: IT Leadership",
+                    "link": "https://www.youtube.com/watch?v=4Ea6xknnNa0"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Beginning to Lead a High-Performing Team",
+                    "link": "https://www.edapp.com/course/stepping-into-team-leadership"
+                },
+                {
+                    "text": "MicroMasters® Program in Business Leadership",
+                    "link": "https://www.edx.org/micromasters/uqx-business-leadership"
+                },
+                {
+                    "text": "Leadership Skills and Team Management",
+                    "link": "https://alison.com/course/leadership-skills-and-team-management?utm_source=youtube&utm_medium=social&utm_campaign=organic-youtube-course-video&utm_term=organic-youtube-course-video"
+                }
+            ]
+        }
+    ],
+    "GraphQL": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Modern GraphQL Crash Course - 2022",
+                    "link": "https://www.youtube.com/watch?v=qux4-yWeZvo"
+                },
+                {
+                    "text": "GraphQL Course For Beginners - Learn GraphQL",
+                    "link": "https://www.youtube.com/watch?v=yqWzCV0kU_c"
+                },
+                {
+                    "text": "GraphQL & Apollo server full course",
+                    "link": "https://www.youtube.com/watch?v=VaN6_yDTcNs"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "The Fullstack Tutorial for GraphQL",
+                    "link": "https://www.howtographql.com/"
+                },
+                {
+                    "text": "Full-stack React + GraphQL Tutorial",
+                    "link": "https://www.apollographql.com/blog/graphql/examples/full-stack-react-graphql-tutorial/?_ga=2.180004196.1149934849.1643971689-1846066190.1643971689"
+                }
+            ]
+        }
+    ],
+    "Web3.js": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Web3.js Intro · Web3.js · #1 Ethereum Blockchain Developer Crash Course",
+                    "link": "https://www.youtube.com/watch?v=t3wM5903ty0&list=PLS5SEs8ZftgXlCGXNfzKdq7nGBcIaVOdN"
+                },
+                {
+                    "text": "web3.js full course | Master Web3js Library (Ethereum) | Code Eater | Hindi",
+                    "link": "https://www.youtube.com/watch?v=u3PtGMRmGA0&ab_channel=CodeEater"
+                },
+                {
+                    "text": "[Web3] Using Web3.js to login with Ethereum + read and modify smart contracts!",
+                    "link": "https://www.youtube.com/watch?v=19kZiv9AhNs&ab_channel=TimCarambat"
+                },
+                {
+                    "text": "Interact with Smart Contracts in React w/ Web3.js | Beginner Web3 Tutorial",
+                    "link": "https://www.youtube.com/watch?v=h9PdvEDuZS8"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Web3.js Tutorial for Beginners - Full Course",
+                    "link": "https://morioh.com/p/369abf9bd837"
+                },
+                {
+                    "text": "How to create your first frontend for smart contracts",
+                    "link": "https://developers.rsk.co/tutorials/frontend/first-frontend-web3-injected/"
+                },
+                {
+                    "text": "Ethereum : Master Web3js Library",
+                    "link": "https://www.udemy.com/course/ethereum-web3js/"
+                }
+            ]
+        }
+    ]
+}

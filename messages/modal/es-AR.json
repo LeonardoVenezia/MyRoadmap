@@ -1,0 +1,22 @@
+{
+    "modal": {
+        "Resources": "Recursos",
+        "HTML": "El más básico de los lenguajes de front end. Con él crearas las estructuras de tus diseños con un enfoque semántico. Aprovecha estos recursos para aprender HTML.",
+        "CSS": "Dale vida a tus diseños con el lenguaje más odiado por los fontends. CSS te permite manejar el layout de tu aplicación como quieras, icluyendo animaciones, transiciones y muchas más cositas mágicas. Aquí unos cursos, post y tutoriales gratuitos de css con los que vas a poder perfeccionarte en este hermoso lenguaje.",
+        "Javascript": "El lenguaje más popular del mundo, el rey de la web. Te dajamos cursos y tutoriales de Javascript gratis para que puedas especializarte en este increíble lenguaje.",
+        "React": "React es la biblioteca de javascript más popular, y es también la mejor opción para comenzar tu carrera. Podrías también utilizar otras librerías o frameworks como Vue o Angular, pero te vamos a recomendar React por su enorme popularidad y crecimiento. Aquí te facilitamos algunos cursos y tutoriales gratuitos de React.",
+        "Git": "El control de versiones es una herramienta básica y obligatoria en cualquier empresa de software. Aprende Git con estos cursos y tutoriales gratuitos.",
+        "Sass": "El preprocesador de CSS más utilizado del mercado. Todos los que tenemos experiencia en front end hemos tenido que usar Sass en más de una oportunidad. Te dejamos recursos gratuitos para que lo aprendas.",
+        "Terminal": "La terminal es una herramienta básica que te acompañara a lo largo de toda tu carrera. Dominarla te servirá de muchas maneras en tu trabajo. Te dejamos por aquí cursos gratuitos y tutoriales para que des tus primeros pasos.",
+        "Redux": "Redux está presente en la gran mayoría de proyectos React. Te ayudará a manejar los datos de toda tu aplicación, sirviendo como fuente de verdad, emprolijando tu código.",
+        "Jest": "La libraría más utilizada para tests unitarios. Es un proceso importantísimo en el desarrollo y deberás conocer esta herramienta tarde o temprano.",
+        "Tailwind": "En muchos proyectos los equipos eligen usar librerias de maquetado para acelerar el desarrollo. Si bien es preferible usar CSS vanilla o Sass cada vez que se pueda, más que nada para no perder tus habilidades en el lenguaje, también es cierto que esta clase de herramientas son muy usadas en proyectos pequeños y en side proyects personales.",
+        "Scrum": "Scrum es un framework de trabajo creado a partir de agile, que sirve para organizar pequeños equipos y mejorar su productividad y la calidad del outcome.",
+        "Next": "El framework de server side rendering más importante del momento. Fácil de usar y con mucha profundidad para complejizarlo. Aprender Next.js gratis es la mejor desición que podes tomar, aquí los cursos:",
+        "Testing Library": "Testing Library es una libraría de test unitarios que corre sobre Jest. Mejora mucho la experiencia de testing, y es muy utilizado en los proyectos actuales.",
+        "Webpack": "Webpack es el builder más importante del mercado, es utilizado en frameworks como React o Angular. En el futuro, es posible que esbuild pueda reemplazarlo; pero eso no sucederá al corto plazo. Muy recomendable aprender webpack cuando ya tienes algo de experiencia. Aprovecha estos cursos y tutoriales gratuitos.",
+        "Leadership": "Llegado el momento, cuando tengas experiencia, deberás liderar a un equipo o a un jr. Esta clase son necesarias y pueden ayudarte también a levarte bien con tus líderes y entender las prioridades del proyecto.",
+        "GraphQL": "GraphQL es un lenguaje de consulta para APIs. Si bien no es super necesario que lo sepas, es un gran plus e muchos proyectos que lo utilizan y que necesitan alguien que conocimientos sólidos en GraphQL. En frontend, podrás encontrar librerías como Apolo que te ayudarán a interactuar con el backend de mejor forma.",
+        "Web3": "Blockchain es la tecnología del momento y los frontends solo necesitan conocer Web3.js para conseguir un empleo en ese sector de altos salarios"
+    }
+}
