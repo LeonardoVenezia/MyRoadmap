@@ -4,6 +4,7 @@
     box-sizing: border-box;
     border-radius: 8px;
     margin: 16px;
+    content-visibility: auto;
 }
 .item:hover {
     border: 1px solid var(--detailColor);

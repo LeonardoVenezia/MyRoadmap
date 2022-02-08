@@ -23,6 +23,7 @@ a {
   --primaryBlack: rgb(70, 80, 100);
   --whiteColor: #FAFAFF;
   --shadowColor: rgba(70, 80, 100, .1);
+  --shadowColor4: rgba(255, 176, 31, .1);
   --detailColor: #64FAF5;
 
   --color1: #4597FF;

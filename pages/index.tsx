@@ -18,6 +18,7 @@ const Home: NextPage = ({ messages }) => {
       title: "Back end",
       description: "backEndDescription",
       link: "/",
+      wip: true,
     }
   ]
   return (
@@ -42,6 +43,7 @@ const Home: NextPage = ({ messages }) => {
                 t(i.description, locale)
               }
               link={i.link}
+              wip={i.wip}
             />
           ))
         }

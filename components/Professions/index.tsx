@@ -7,11 +7,16 @@ interface ProfessionsTypes {
     link: string;
 }
 
-const Professions = ({ title, description, link }: ProfessionsTypes) => {
+const Professions = ({ title, description, link, wip }: ProfessionsTypes) => {
     return (
-        <Link href={link}>
+        <Link href={link} shallow>
             <a>
                 <div className={styles.professions}>
+                    {
+                        wip && <div className={styles.wip} >
+                            <p className={styles.wipText}>Work in progress</p>
+                        </div>
+                    }
                     <h3 className={styles.title}>{title}</h3>
                     <p className={styles.description}>{description}</p>
                 </div>
