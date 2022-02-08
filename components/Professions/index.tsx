@@ -5,6 +5,7 @@ interface ProfessionsTypes {
     title: string;
     description: string;
     link: string;
+    wip: Boolean;
 }
 
 const Professions = ({ title, description, link, wip }: ProfessionsTypes) => {

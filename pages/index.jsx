@@ -1,11 +1,10 @@
-import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Professions from '../components/Professions';
 import { useRouter } from 'next/router';
 import { useTranslations } from 'next-intl';
 
-const Home: NextPage = ({ messages }) => {
+const Home = () => {
   const t = useTranslations('home');
   const { locale } = useRouter();
   const cards = [
@@ -39,6 +38,7 @@ const Home: NextPage = ({ messages }) => {
           cards.map(i => (
             <Professions
               title={i.title}
+              key={i.title}
               description={
                 t(i.description, locale)
               }
@@ -53,10 +53,10 @@ const Home: NextPage = ({ messages }) => {
 }
 
 export default Home;
-interface getStaticPropsTypes {
-  locale: string;
-}
-export function getStaticProps({ locale }: getStaticPropsTypes) {
+// interface getStaticPropsTypes {
+//   locale: string;
+// }
+export function getStaticProps({ locale }) {
   return {
     props: {
       messages: {

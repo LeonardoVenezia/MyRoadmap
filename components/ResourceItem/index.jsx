@@ -2,9 +2,9 @@ import styles from './ResourceItem.module.css';
 import Image from 'next/image';
 import { useState } from 'react';
 
-const ResourceItem = ({ resource })=> {
+const ResourceItem = ({ resource }) => {
     const [open, setOpen] = useState(false);
-    const openSection = ()=> {
+    const openSection = () => {
         setOpen(!open);
     }
     return (
@@ -24,13 +24,14 @@ const ResourceItem = ({ resource })=> {
             <li className={`${!open && styles.hidden}`}>
                 <ul>
                     {
-                        resource.resources.map((i)=> {
+                        resource.resources.map((i) => {
                             return (
-                                <li className={styles.data}>
+                                <li key={i.link} className={styles.data}>
                                     <a
                                         href={i.link}
                                         className={styles.link}
                                         target="_blank"
+                                        rel="noreferrer"
                                     >
                                         {i.text}
                                     </a>
