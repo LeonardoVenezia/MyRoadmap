@@ -12,7 +12,7 @@ const Professions = ({ title, description, link, wip }: ProfessionsTypes) => {
     return (
         <Link href={link} shallow>
             <a>
-                <div className={styles.professions}>
+                <div className={`${styles.professions} ${wip && styles.wipCont}`}>
                     {
                         wip && <div className={styles.wip} >
                             <p className={styles.wipText}>Work in progress</p>

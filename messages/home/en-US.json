@@ -1,6 +1,7 @@
 {
     "home": {
         "frontEndDescription": "Build fast, interesting and wonderful applications.",
+        "wordpressFrontEndDescription": "The most popular cms for web apps. The favorite of freelancers.",
         "backEndDescription": "Build the dark side of applications, and feel the force."
     }
 }

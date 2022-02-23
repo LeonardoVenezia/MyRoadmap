@@ -14,6 +14,11 @@ const Home = () => {
       link: "FrontEnd",
     },
     {
+      title: "Wordpress Front end",
+      description: "wordpressFrontEndDescription",
+      link: "WordpressFrontEnd",
+    },
+    {
       title: "Back end",
       description: "backEndDescription",
       link: "/",
