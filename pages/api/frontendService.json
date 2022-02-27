@@ -1,0 +1,148 @@
+{
+    "react": [
+        [
+            {
+                "name": "HTML",
+                "src": "/html.png"
+            },
+            {
+                "name": "CSS",
+                "src": "/css.png"
+            },
+            {
+                "name": "Javascript",
+                "src": "/js.png"
+            }
+        ],
+        [
+            {
+                "name": "React",
+                "src": "/react.svg"
+            },
+            {
+                "name": "Git",
+                "src": "/git.png"
+            },
+            {
+                "name": "Sass",
+                "src": "/sass.svg"
+            },
+            {
+                "name": "Terminal",
+                "src": "/terminal.png"
+            }
+        ],
+        [
+            {
+                "name": "Redux",
+                "src": "/redux.png"
+            },
+            {
+                "name": "Jest",
+                "src": "/jest.svg"
+            },
+            {
+                "name": "Tailwind",
+                "src": "/tailwind.png"
+            },
+            {
+                "name": "Scrum",
+                "src": "/scrum.png"
+            },
+            {
+                "name": "TypeScript",
+                "src": "/TypeScript.png"
+            }
+        ],
+        [
+            {
+                "name": "Next.js",
+                "src": "/nextjs.png"
+            },
+            {
+                "name": "Testing Library",
+                "src": "/testingLibrary.png"
+            },
+            {
+                "name": "Webpack",
+                "src": "/webpack.png"
+            },
+            {
+                "name": "Leadership",
+                "src": "/Leadership.png"
+            },
+            {
+                "name": "GraphQL",
+                "src": "/GraphQL.png"
+            },
+            {
+                "name": "Web3.js",
+                "src": "/web3js.jpeg"
+            }
+        ]
+    ],
+    "wordpress": [
+        [
+            {
+                "name": "HTML",
+                "src": "/html.png"
+            },
+            {
+                "name": "CSS",
+                "src": "/css.png"
+            },
+            {
+                "name": "Javascript",
+                "src": "/js.png"
+            },
+            {
+                "name": "Wordpress",
+                "src": "/Wordpress.svg"
+            }
+        ],
+        [
+            {
+                "name": "Yoast SEO",
+                "src": "/yoastSeo.png"
+            },
+            {
+                "name": "Wordfence Security",
+                "src": "/Wordfence Security.png"
+            },
+            {
+                "name": "Contact Form 7",
+                "src": "/Contact form 7.png"
+            },
+            {
+                "name": "Woo Commerce",
+                "src": "/WooCommerce.svg"
+            },
+            {
+                "name": "Elementor",
+                "src": "/Elementor.png"
+            }
+        ],
+        [
+            {
+                "name": "PHP",
+                "src": "/php.svg"
+            },
+            {
+                "name": "Git",
+                "src": "/git.png"
+            },
+            {
+                "name": "Sass",
+                "src": "/sass.svg"
+            },
+            {
+                "name": "Terminal",
+                "src": "/terminal.png"
+            },
+            {
+                "name": "MySQL",
+                "src": "/mysql.png"
+            }
+        ]
+    ]
+}

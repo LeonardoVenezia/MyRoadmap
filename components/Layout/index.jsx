@@ -3,12 +3,28 @@ import ItemsSections from "../ItemsSections";
 import { useState } from 'react';
 import styles from './Layout.module.css';
 
-const Layout = ({ title, sections }) => {
+const Layout = ({ title, sections, paths = [], active, handleClick }) => {
     const [openDetail, setOpenDetail] = useState('');
 
     return (
         <>
             <h1 className={styles.title}>{title}</h1>
+            <ul>
+                {
+                    paths.map(i => (
+                        <li>
+                            <button
+                                onClick={() => handleClick(i)}
+                                className={
+                                    `${styles.button} ${active && styles.active}`
+                                }
+                            >
+                                {i}
+                            </button>
+                        </li>
+                    ))
+                }
+            </ul>
             <main>
                 {
                     <Modal

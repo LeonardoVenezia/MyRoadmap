@@ -1,72 +1,55 @@
+import frontendService from './api/frontendService.json';
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-import Professions from '../components/Professions';
-import { useRouter } from 'next/router';
-import { useTranslations } from 'next-intl';
+import Layout from '../components/Layout';
+import { useState } from 'react';
 
-const Home = () => {
-  const t = useTranslations('home');
-  const { locale } = useRouter();
-  const cards = [
-    {
-      title: "Front end",
-      description: "frontEndDescription",
-      link: "FrontEnd",
-    },
-    {
-      title: "Wordpress Front end",
-      description: "wordpressFrontEndDescription",
-      link: "WordpressFrontEnd",
-    },
-    {
-      title: "Back end",
-      description: "backEndDescription",
-      link: "/",
-      wip: true,
-    }
-  ]
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>My Roadmap</title>
-        <meta name="description" content="The best path to learn." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const FrontEnd = () => {
+    const [active, setActive] = useState('react')
 
-      <section>
-        <h1 className={styles.title}>My Roadmap</h1>
-        <h2 className={styles.subtitle}>What do you want to be?</h2>
-      </section>
-
-      <main className={styles.professions}>
-        {
-          cards.map(i => (
-            <Professions
-              title={i.title}
-              key={i.title}
-              description={
-                t(i.description, locale)
-              }
-              link={i.link}
-              wip={i.wip}
-            />
-          ))
-        }
-      </main>
-    </div>
-  )
+    return (
+        <>
+            <Head>
+                <title>Front end learning path</title>
+                <meta name="description" content="The best path to learn." />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <Layout
+                title="Front end learning path"
+                paths={['react', 'wordpress']}
+                handleClick={setActive}
+                sections={
+                    frontendService[active]
+                    // [
+                    //     [
+                    //         { name: "HTML", src: "/html.png" },
+                    //         { name: "CSS", src: "/css.png" },
+                    //         { name: "Javascript", src: "/js.png" },
+                    //     ],
+                    //     [
+                    //         { name: "React", src: "/react.svg" },
+                    //         { name: "Git", src: "/git.png" }, ,
+                    //         { name: "Sass", src: "/sass.svg" },
+                    //         { name: "Terminal", src: "/terminal.png" },
+                    //     ],
+                    //     [
+                    //         { name: "Redux", src: "/redux.png" },
+                    //         { name: "Jest", src: "/jest.svg" },
+                    //         { name: "Tailwind", src: "/tailwind.png" },
+                    //         { name: "Scrum", src: "/scrum.png" },
+                    //         { name: "TypeScript", src: "/TypeScript.png" },
+                    //     ],
+                    //     [
+                    //         { name: "Next.js", src: "/nextjs.png" },
+                    //         { name: "Testing Library", src: "/testingLibrary.png" },
+                    //         { name: "Webpack", src: "/webpack.png" },
+                    //         { name: "Leadership", src: "/Leadership.png" },
+                    //         { name: "GraphQL", src: "/GraphQL.png" },
+                    //         { name: "Web3.js", src: "/web3js.jpeg" },
+                    //     ],
+                    // ]
+                } />
+        </>
+    );
 }
 
-export default Home;
-// interface getStaticPropsTypes {
-//   locale: string;
-// }
-export function getStaticProps({ locale }) {
-  return {
-    props: {
-      messages: {
-        ...require(`../messages/home/${locale}.json`),
-      },
-    },
-  }
-}
+export default FrontEnd;
