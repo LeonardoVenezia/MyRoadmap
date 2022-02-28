@@ -35,3 +35,4 @@ const Modal = ({ close, open, name }) => {
 }
 
 export default Modal;
+
