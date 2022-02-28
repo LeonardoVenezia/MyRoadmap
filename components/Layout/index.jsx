@@ -13,7 +13,7 @@ const Layout = ({ title, active, handleClick, names, data = [] }) => {
                 <ul className={styles.buttons}>
                     {
                         names.map(item => (
-                            <li>
+                            <li key={item.index + item.name}>
                                 <button
                                     onClick={() => handleClick(item.index)}
                                     className={
