@@ -1,5 +1,38 @@
 .title {
   font-size: 40px;
   text-align: center;
-  margin: 24px 16px;
+  padding: 24px 16px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  background-color: transparent;
+  border: 1px solid var(--color1);
+  color: var(--color1);
+  font-size: 16px;
+  padding: 8px 12px;
+  margin: 0 8px;
+  border-radius: 8px;
+  transition: transform;
+}
+.button::first-letter {
+  text-transform: uppercase;
+}
+.button:active {
+  background-color: var(--color1);
+  color: white;
+  transform: scale(1.05);
+}
+.button.active {
+  background-color: var(--color1);
+  color: white;
+}
+.description {
+  text-align: center;
+  width: 60%;
+  min-width: 300px;
+  max-width: 550px;
+  margin: auto;
 }

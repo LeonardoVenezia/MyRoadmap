@@ -2,12 +2,20 @@ import frontendService from './api/frontendService.json';
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import { useState } from 'react';
+import BackgroundContainer from '../components/BackgroundContainer';
 
 const FrontEnd = () => {
-    const [active, setActive] = useState('react')
+    const [active, setActive] = useState(0);
+    const names = frontendService.map((i, index) =>
+    (
+        {
+            name: i.name,
+            index,
+        }
+    ));
 
     return (
-        <>
+        <BackgroundContainer>
             <Head>
                 <title>Front end learning path</title>
                 <meta name="description" content="The best path to learn." />
@@ -17,38 +25,11 @@ const FrontEnd = () => {
                 title="Front end learning path"
                 paths={['react', 'wordpress']}
                 handleClick={setActive}
-                sections={
-                    frontendService[active]
-                    // [
-                    //     [
-                    //         { name: "HTML", src: "/html.png" },
-                    //         { name: "CSS", src: "/css.png" },
-                    //         { name: "Javascript", src: "/js.png" },
-                    //     ],
-                    //     [
-                    //         { name: "React", src: "/react.svg" },
-                    //         { name: "Git", src: "/git.png" }, ,
-                    //         { name: "Sass", src: "/sass.svg" },
-                    //         { name: "Terminal", src: "/terminal.png" },
-                    //     ],
-                    //     [
-                    //         { name: "Redux", src: "/redux.png" },
-                    //         { name: "Jest", src: "/jest.svg" },
-                    //         { name: "Tailwind", src: "/tailwind.png" },
-                    //         { name: "Scrum", src: "/scrum.png" },
-                    //         { name: "TypeScript", src: "/TypeScript.png" },
-                    //     ],
-                    //     [
-                    //         { name: "Next.js", src: "/nextjs.png" },
-                    //         { name: "Testing Library", src: "/testingLibrary.png" },
-                    //         { name: "Webpack", src: "/webpack.png" },
-                    //         { name: "Leadership", src: "/Leadership.png" },
-                    //         { name: "GraphQL", src: "/GraphQL.png" },
-                    //         { name: "Web3.js", src: "/web3js.jpeg" },
-                    //     ],
-                    // ]
-                } />
-        </>
+                active={active}
+                data={frontendService[active || 0]}
+                names={names}
+            />
+        </BackgroundContainer>
     );
 }
 

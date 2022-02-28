@@ -1,0 +1,9 @@
+.background {
+    background-color: var(--whiteColor);
+    background-image:  linear-gradient(30deg, #4597FF 12%, transparent 12.5%, transparent 87%, #4597FF 87.5%, #4597FF), linear-gradient(150deg, #4597FF 12%, transparent 12.5%, transparent 87%, #4597FF 87.5%, #4597FF), linear-gradient(30deg, #4597FF 12%, transparent 12.5%, transparent 87%, #4597FF 87.5%, #4597FF), linear-gradient(150deg, #4597FF 12%, transparent 12.5%, transparent 87%, #4597FF 87.5%, #4597FF), linear-gradient(60deg, #4597FF77 25%, transparent 25.5%, transparent 75%, #4597FF77 75%, #4597FF77), linear-gradient(60deg, #4597FF77 25%, transparent 25.5%, transparent 75%, #4597FF77 75%, #4597FF77);
+    background-size: 46px 81px;
+    background-position: 0 0, 0 0, 23px 40px, 23px 40px, 0 0, 23px 40px;
+}
+.transparent {
+    background: radial-gradient(ellipse at 100% 45%, var(--whiteColor) 80%, transparent 99%);
+}
