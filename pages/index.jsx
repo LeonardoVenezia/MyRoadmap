@@ -34,3 +34,13 @@ const FrontEnd = () => {
 }
 
 export default FrontEnd;
+
+export function getStaticProps({ locale }) {
+    return {
+        props: {
+            messages: {
+                ...require(`../messages/home/${locale}.json`),
+            },
+        },
+    }
+}
