@@ -1,8 +1,4 @@
-import ItemsSections from '../../components/ItemsSections';
 import Head from 'next/head';
-import styles from './WordpressFrontEnd.module.css';
-import { useState } from 'react';
-import Modal from '../../components/Modal';
 import Layout from '../../components/Layout';
 
 const WordpressFrontEnd = () => {
@@ -45,14 +41,3 @@ const WordpressFrontEnd = () => {
 }
 
 export default WordpressFrontEnd;
-
-export function getStaticProps({ locale }) {
-
-    const messages = { ...require(`../../messages/modal/${locale}.json`) };
-
-    return {
-        props: {
-            messages,
-        },
-    }
-}

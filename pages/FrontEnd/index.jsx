@@ -1,8 +1,4 @@
-import ItemsSections from '../../components/ItemsSections';
 import Head from 'next/head';
-import styles from './FrontEnd.module.css';
-import { useState } from 'react';
-import Modal from '../../components/Modal';
 import Layout from '../../components/Layout';
 
 const FrontEnd = () => {
@@ -51,14 +47,3 @@ const FrontEnd = () => {
 }
 
 export default FrontEnd;
-
-export function getStaticProps({ locale }) {
-
-    const messages = { ...require(`../../messages/modal/${locale}.json`) };
-
-    return {
-        props: {
-            messages,
-        },
-    }
-}

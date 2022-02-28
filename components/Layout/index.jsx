@@ -3,7 +3,7 @@ import ItemsSections from "../ItemsSections";
 import { useState } from 'react';
 import styles from './Layout.module.css';
 
-const Layout = ({ title, active, handleClick, names, data = [] }) => {
+const Layout = ({ title, active, handleClick, names = [], data = [] }) => {
     const [openDetail, setOpenDetail] = useState('');
 
     return (
