@@ -1,6 +1,6 @@
 import styles from './Resources.module.css';
 import ResourceItem from '../ResourceItem';
-import resources from './resources.json';
+import resources from '../../services/resources.json';
 
 const Resources = ({ type }) => {
     const resourcesList = resources[type];

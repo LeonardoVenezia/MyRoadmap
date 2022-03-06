@@ -757,5 +757,243 @@
                 }
             ]
         }
+    ],
+    "Wordpress": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "How To Create A WordPress Website in 2022 ~ A Free WordPress Tutorial For Beginners",
+                    "link": "https://www.youtube.com/watch?v=1q6PIuGcnts"
+                },
+                {
+                    "text": "WordPress Full Course in ONE VIDEO | ZERO to HERO | STEP BY STEP",
+                    "link": "https://www.youtube.com/watch?v=DcbPVzq8lHY&ab_channel=AzharulRafy"
+                },
+                {
+                    "text": "WordPress 5.9 Tutorial | Full Site Editing Tutorial",
+                    "link": "https://www.youtube.com/watch?v=1ThMIssK3IY"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Create a WordPress Website for Your Web Design Business",
+                    "link": "https://www.udemy.com/course/create-wordpress-website-for-your-web-design-business/?ranMID=39197&ranEAID=PGgEE4IBqrs&ranSiteID=PGgEE4IBqrs-P69.30ec2sqZHkSpprBiPQ&utm_source=aff-campaign&LSNPUBID=PGgEE4IBqrs&utm_medium=udemyads"
+                },
+                {
+                    "text": "How to Learn WordPress for Free in a Week (or Less)",
+                    "link": "https://www.wpbeginner.com/beginners-guide/how-to-learn-wordpress-for-free-in-a-week-or-less/"
+                },
+                {
+                    "text": "Build a Full Website using WordPress",
+                    "link": "https://www.coursera.org/projects/build-a-full-website-using-wordpress"
+                }
+            ]
+        }
+    ],
+    "Yoast SEO": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Yoast SEO Tutorial 2022 (STEP-BY-STEP FOR BEGINNERS)",
+                    "link": "https://www.youtube.com/watch?v=-HiQpdbteWU&ab_channel=BlogWithBen"
+                },
+                {
+                    "text": "Complete Yoast Seo Tutorial 2021- How To Setup Yoast SEO Plugin - Wordpress SEO For Beginners",
+                    "link": "https://www.youtube.com/watch?v=F3Bi1jIJ-h8&ab_channel=DarrelWilson"
+                },
+                {
+                    "text": "Yoast SEO tutorial for beginners | SEO for Small Business | Best SEO Plugin 2021",
+                    "link": "https://www.youtube.com/watch?v=Egy-jdLSy8s&ab_channel=StewartGauld"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "WordPress SEO: the definitive guide",
+                    "link": "https://yoast.com/wordpress-seo/"
+                },
+                {
+                    "text": "Yoast SEO Tutorial: A Complete Guide to Improve Your Site Rankings",
+                    "link": "https://www.hostinger.com/tutorials/how-to-optimize-wordpress-yoast-seo"
+                }
+            ]
+        }
+    ],
+    "Wordfence Security": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "How to Secure Your WordPress Website",
+                    "link": "https://www.youtube.com/watch?v=FncAJh-vgVY&ab_channel=Wordfence"
+                },
+                {
+                    "text": "HOW TO SETUP WORDFENCE SECURITY PLUGIN FOR FREE",
+                    "link": "https://www.youtube.com/watch?v=vBkXtXGQJsM&ab_channel=FJSUCCESS"
+                },
+                {
+                    "text": "How to Install Wordfence Free: Step By Step Instructions",
+                    "link": "https://www.youtube.com/watch?v=3RInD8H_dW8&ab_channel=Wordfence"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Wordfence Security Plugin Tutorial: Beginners Guide",
+                    "link": "https://yavarkhan.com/wordfence-security-plugin-tutorial/"
+                },
+                {
+                    "text": "Wordfence Tutorial: How to Keep Your WordPress Site Safe from Hackers",
+                    "link": "https://www.elated.com/wordfence-tutorial/"
+                }
+            ]
+        }
+    ],
+    "Contact Form 7": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Setup Contact Form 7 in Elementor the Right Way (Contact Form 7 Tutorial)",
+                    "link": "https://www.youtube.com/watch?v=6dmz_JccaM8&ab_channel=GOTECHUG"
+                },
+                {
+                    "text": "Comprehensive Guide to Wordpress Contact Form 7 Plugin",
+                    "link": "https://www.youtube.com/watch?v=P9vsyVxu94I"
+                },
+                {
+                    "text": "How to create a Multi-Step form with Contact Form 7 | Step-by-Step Guide | Free WordPress Plugin",
+                    "link": "https://www.youtube.com/watch?v=7Ucrx_ttGdM"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Getting started with Contact Form 7",
+                    "link": "https://contactform7.com/getting-started-with-contact-form-7/"
+                },
+                {
+                    "text": "How to Set Up Contact Form 7 (For Beginners)",
+                    "link": "https://themeisle.com/blog/how-to-set-up-contact-form-7/"
+                }
+            ]
+        }
+    ],
+    "Woo Commerce": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "A Complete WooCommerce Tutorial For Beginners ~ 2022 ~ Make An Ecommerce Website Free Today!",
+                    "link": "https://www.youtube.com/watch?v=s2euv5B4x98&ab_channel=WebYoda"
+                },
+                {
+                    "text": "The Complete WooCommerce Tutorial for Beginners - Step by Step - 2022 (Best eCommerce 💰 Tutorial)",
+                    "link": "https://www.youtube.com/watch?v=gO2ZYurhsEc"
+                },
+                {
+                    "text": "What is WooCommerce? An eCommerce Expert Explains 6 Reasons to Love It",
+                    "link": "https://www.youtube.com/watch?v=kfZMnCGGqYc"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "WooCommerce Made Simple: A Step-by-Step Tutorial [+ Resources]",
+                    "link": "https://www.wpbeginner.com/wp-tutorials/woocommerce-tutorial-ultimate-guide/"
+                },
+                {
+                    "text": "How to Set Up and Customize your WooCommerce Product Page",
+                    "link": "https://learnwoo.com/customize-woocommerce-product-page/"
+                }
+            ]
+        }
+    ],
+    "Elementor": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "Elementor Wordpress Tutorial - The Basics in 10 Minutes",
+                    "link": "https://www.youtube.com/watch?v=E15iQEm9KF8&ab_channel=LivingWithPixels"
+                },
+                {
+                    "text": "COMPLETE ELEMENTOR COURSE | LEARN ELEMENTOR IN 2021",
+                    "link": "https://www.youtube.com/watch?v=sf000GSeylA&ab_channel=Janosch%27sWorkspace"
+                },
+                {
+                    "text": "Elementor Pro Tutorial With WordPress 5.9",
+                    "link": "https://www.youtube.com/watch?v=qrsKXIdSKwY&ab_channel=FerdyKorpershoek"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Courses by Elememntor",
+                    "link": "https://elementor.com/academy/courses/"
+                },
+                {
+                    "text": "Learn all about the Elementor page builder",
+                    "link": "https://websitestartercourse.com/elementor-101/"
+                }
+            ]
+        }
     ]
 }

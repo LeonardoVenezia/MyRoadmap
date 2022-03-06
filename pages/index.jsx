@@ -1,4 +1,4 @@
-import frontendService from './api/frontendService.json';
+import frontendService from '../services/frontendService.json';
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import { useState } from 'react';

@@ -1,10 +1,13 @@
 .li:hover {
     box-shadow: 5px 5px 10px var(--shadowColor);
+    transform: scale(1.005);
 }
 .li {
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+    transform: scale(1);
+    transition: transform .3s;
 }
 .description {
     margin-left: 16px;
