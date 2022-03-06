@@ -99,12 +99,12 @@
                     "src": "/css.png"
                 },
                 {
-                    "name": "Javascript",
-                    "src": "/js.png"
-                },
-                {
                     "name": "Wordpress",
                     "src": "/wordpress.svg"
+                },
+                {
+                    "name": "Elementor",
+                    "src": "/Elementor.png"
                 }
             ],
             [
@@ -123,16 +123,16 @@
                 {
                     "name": "Woo Commerce",
                     "src": "/WooCommerce.svg"
-                },
-                {
-                    "name": "Elementor",
-                    "src": "/Elementor.png"
                 }
             ],
             [
                 {
                     "name": "PHP",
                     "src": "/php.svg"
+                },
+                {
+                    "name": "Javascript",
+                    "src": "/js.png"
                 },
                 {
                     "name": "Git",
