@@ -995,5 +995,103 @@
                 }
             ]
         }
+    ],
+    "PHP": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "PHP Tutorial for Beginners - Full Course | OVER 7 HOURS!",
+                    "link": "https://www.youtube.com/watch?v=t0syDUSbdfE"
+                },
+                {
+                    "text": "PHP Basics for WordPress - A Beginners Guide to WordPress PHP",
+                    "link": "https://www.youtube.com/watch?v=mgGAvq9hmyU"
+                },
+                {
+                    "text": "PHP Design Patterns course preview - PHP Dependency injection and factory pattern -Advanced OOP PHP",
+                    "link": "https://www.youtube.com/watch?v=a7bgGhSTTb0"
+                },
+                {
+                    "text": "PHP Backend Programing Language Tutorial - Full Course for beginners - Part 1 (New, 2022)",
+                    "link": "https://www.youtube.com/watch?v=ni3saNsfjlg&ab_channel=CodingWithMike"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "Building Web Applications in PHP",
+                    "link": "https://www.coursera.org/learn/web-applications-php"
+                },
+                {
+                    "text": "Get into PHP",
+                    "link": "https://jobtensor.com/Tutorial/PHP/en/Introduction"
+                },
+                {
+                    "text": "PHP Tutorial for Beginners: Learn in 7 Days",
+                    "link": "https://www.guru99.com/php-tutorials.html"
+                },
+                {
+                    "text": "PHP",
+                    "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/php"
+                }
+            ]
+        }
+    ],
+    "MySQL": [
+        {
+            "item": {
+                "description": "Youtube courses and tutorials",
+                "img": "/youtube.png"
+            },
+            "resources": [
+                {
+                    "text": "PHP Tutorial for Beginners - Full Course | OVER 7 HOURS!",
+                    "link": "https://www.youtube.com/watch?v=t0syDUSbdfE"
+                },
+                {
+                    "text": "PHP Basics for WordPress - A Beginners Guide to WordPress PHP",
+                    "link": "https://www.youtube.com/watch?v=mgGAvq9hmyU"
+                },
+                {
+                    "text": "PHP Design Patterns course preview - PHP Dependency injection and factory pattern -Advanced OOP PHP",
+                    "link": "https://www.youtube.com/watch?v=a7bgGhSTTb0"
+                },
+                {
+                    "text": "PHP Backend Programing Language Tutorial - Full Course for beginners - Part 1 (New, 2022)",
+                    "link": "https://www.youtube.com/watch?v=ni3saNsfjlg&ab_channel=CodingWithMike"
+                }
+            ]
+        },
+        {
+            "item": {
+                "description": "Posts, courses, readings and tutorials",
+                "img": "/reading.png",
+                "type": "reading"
+            },
+            "resources": [
+                {
+                    "text": "My SQL Basics",
+                    "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/my-sql-basics"
+                },
+                {
+                    "text": "Excel to MySQL: Analytic Techniques for Business Specialization",
+                    "link": "https://www.coursera.org/specializations/excel-mysql"
+                },
+                {
+                    "text": "MySQL Learning Subscription",
+                    "link": "https://education.oracle.com/mysql-learning-subscription/ls_51871"
+                }
+            ]
+        }
     ]
 }
