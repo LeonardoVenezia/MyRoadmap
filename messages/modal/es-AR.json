@@ -17,6 +17,7 @@
         "Webpack": "Webpack es el builder más importante del mercado, es utilizado en frameworks como React o Angular. En el futuro, es posible que esbuild pueda reemplazarlo; pero eso no sucederá al corto plazo. Muy recomendable aprender webpack cuando ya tienes algo de experiencia. Aprovecha estos cursos y tutoriales gratuitos.",
         "Leadership": "Llegado el momento, cuando tengas experiencia, deberás liderar a un equipo o a un jr. Esta clase son necesarias y pueden ayudarte también a levarte bien con tus líderes y entender las prioridades del proyecto.",
         "GraphQL": "GraphQL es un lenguaje de consulta para APIs. Si bien no es super necesario que lo sepas, es un gran plus e muchos proyectos que lo utilizan y que necesitan alguien que conocimientos sólidos en GraphQL. En frontend, podrás encontrar librerías como Apolo que te ayudarán a interactuar con el backend de mejor forma.",
-        "Web3": "Blockchain es la tecnología del momento y los frontends solo necesitan conocer Web3.js para conseguir un empleo en ese sector de altos salarios"
+        "Web3": "Blockchain es la tecnología del momento y los frontends solo necesitan conocer Web3.js para conseguir un empleo en ese sector de altos salarios",
+        "Wordpress": "Wordpress es un cms que permite crear webs completas facilmente. Acá tenés unos buenos cursos gratis de worrdpress."
     }
 }
