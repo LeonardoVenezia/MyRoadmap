@@ -18,6 +18,13 @@
         "Leadership": "When the time comes, when you have experience, you will have to lead a team or a jr. These classes are necessary and can also help you get on well with your leaders and understand the priorities of the project.",
         "GraphQL": "GraphQL is a query language for APIs. Although it is not super necessary for you to know it, it is a great plus for many projects that use it and that need someone with a solid knowledge of GraphQL. On the frontend, you can find libraries like Apolo that will help you interact with the backend in a better way.",
         "Web3": "Blockchain is the technology of the moment and frontends only need to know Web3.js to get a job in this high-paying sector",
-        "Wordpress": "Wordpress is a cms that allows you to create complete websites easily. Here you have some good free wordpress courses."
+        "Wordpress": "Wordpress is a cms that allows you to create complete websites easily. Here you have some good free wordpress courses.",
+        "Elementor": "Elementor is a layout plugin for Wordpress, it has become the most important and used thanks to the scope of its free service and its drag and drop system.",
+        "Yoast SEO": "Yoast SEO is the most popular WordPress SEO plugin. Without knowing too much about the subject you can have a more than decent performance, that makes it unique.",
+        "Wordfence Security": "Wordfence Security is a wordpress plugin that allows you to maintain the security of the web, in various layers, in a more than simple way.",
+        "Contact Form 7": "Contact Form 7 is the most popular WordPress plugin for forms. It allows you to create them in a simple way and also allows you to go deeper into the code to make them in a customized way.",
+        "Woo Commerce": "Woocommerce is an amazing tool. It allows you to create an ecommerce in an intuitive way and with several functionalities. It is essential to work with Wordpress.",
+        "PHP": "One of the most important programming languages on the web. He knew how to dominate it, although his popularity has been going down for a long time. Nowadays, the most important platform that uses it is Wordpress.",
+        "MySQL": "MySQL is the database management system used by Wordpress. The language that runs behind is SQL, but don't worry, you don't need to learn it."
     }
 }
