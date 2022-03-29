@@ -2,6 +2,8 @@ import Modal from "../Modal";
 import ItemsSections from "../ItemsSections";
 import { useState } from 'react';
 import Header from "../Header";
+import styles from './Layout.module.css';
+import DescriptionSection from "../DescriptionSection";
 
 const Layout = ({ title, active, handleClick, names = [], data = [] }) => {
     const [openDetail, setOpenDetail] = useState('');
@@ -15,7 +17,7 @@ const Layout = ({ title, active, handleClick, names = [], data = [] }) => {
                 active={active}
                 description={data.description}
             />
-            <main>
+            <main className={styles.container}>
                 <Modal
                     close={() => setOpenDetail('')}
                     open={openDetail}
@@ -25,6 +27,7 @@ const Layout = ({ title, active, handleClick, names = [], data = [] }) => {
                     openDetail={setOpenDetail}
                     sections={data.path}
                 />
+                <DescriptionSection />
             </main>
         </>
     )

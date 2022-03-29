@@ -39,6 +39,7 @@ export function getStaticProps({ locale }) {
     return {
         props: {
             messages: {
+                ...require(`../messages/home/${locale}.json`),
                 ...require(`../messages/modal/${locale}.json`),
             },
         },

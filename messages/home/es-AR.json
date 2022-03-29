@@ -1,7 +1,6 @@
 {
     "home": {
-        "frontEndDescription": "Construye aplicaciones rápidas, interesantes y maravillosas.",
-        "wordpressFrontEndDescription": "El cms más popular para webs de complejidad baja o media. El favorito de los freelancers.",
-        "backEndDescription": "Únete al lado oscuro de las aplicaciones, y siente la fuerza."
+        "proyectDescription": "Este proyecto nació para ayudarte a enfocar tus esfuerzos y crecer eficientemente en tu carrera como desarrollador front-end. Los skills se muestran en tres prioridades diferentes, la idea es que lo vayas aprendiendo así, pero se creiterioso.",
+        "proyectTitleDescription": "¿Querés ser front-end?"
     }
 }
