@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import styles from './item.module.css';
 
-const Item = ({name, src, openDetail})=> {
-    const handleClick = ()=> {
+const Item = ({ name, src, openDetail }) => {
+    const handleClick = () => {
         openDetail(name);
     }
     return (
