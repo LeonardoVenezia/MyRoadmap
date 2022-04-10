@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Item from './index';
+import Item from '.';
 import styles from './item.module.css';
 
 describe('<Item />', ()=> {

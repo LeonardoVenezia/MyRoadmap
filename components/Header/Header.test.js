@@ -1,17 +1,25 @@
 import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import styles from './Header.module.css';
 import Header from '.';
 
 describe('<Header />', ()=> {
+    const names = [
+        {
+            name: 'mockList1',
+            key: 1,
+        },
+        {
+            name: 'mockList2',
+            key: 2,
+        }
+    ];
     test('Title render', ()=> {
         const title = 'mockTitle';
-        const names = ['mockList'];
         render(
             <Header
                 title={title}
                 names={names}
-                // handleClick={handleClick}
-                // active={active}
-                // description={description}
             />
         );
         const textTitle = screen.getByText(title);
@@ -21,17 +29,31 @@ describe('<Header />', ()=> {
 
     test('List is filled', async ()=> {
         const title = 'mockTitle';
-        const names = ['mockList1', 'mockList2'];
         render(
             <Header
                 title={title}
                 names={names}
-                // handleClick={handleClick}
-                // active={active}
-                // description={description}
             />
         );
         const listElement = await screen.findAllByRole('listitem');
         expect(listElement.length).toBe(names.length);
+    });
+
+    test('handleClick behavior', async ()=> {
+        const title = 'mockTitle';
+
+        const handleClick = jest.fn(()=>{});
+
+        render(
+            <Header
+                title={title}
+                names={names}
+                handleClick={handleClick}
+            />
+        );
+
+        const button = await screen.getByText('mockList1');
+        userEvent.click(button);
+        expect(handleClick).toHaveBeenCalled();
     });
 })
