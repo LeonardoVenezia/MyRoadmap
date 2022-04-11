@@ -4,18 +4,21 @@ import styles from './Header.module.css';
 import Header from '.';
 
 describe('<Header />', ()=> {
+
+    const title = 'mockTitle';
+    const active = 1;
     const names = [
         {
             name: 'mockList1',
-            key: 1,
+            index: 0,
         },
         {
             name: 'mockList2',
-            key: 2,
+            index: 1,
         }
     ];
     test('Title render', ()=> {
-        const title = 'mockTitle';
+
         render(
             <Header
                 title={title}
@@ -28,7 +31,7 @@ describe('<Header />', ()=> {
     });
 
     test('List is filled', async ()=> {
-        const title = 'mockTitle';
+
         render(
             <Header
                 title={title}
@@ -39,8 +42,7 @@ describe('<Header />', ()=> {
         expect(listElement.length).toBe(names.length);
     });
 
-    test('handleClick behavior', async ()=> {
-        const title = 'mockTitle';
+    test('handleClick behavior', ()=> {
 
         const handleClick = jest.fn(()=>{});
 
@@ -52,8 +54,22 @@ describe('<Header />', ()=> {
             />
         );
 
-        const button = await screen.getByText('mockList1');
+        const button = screen.getByText('mockList1');
         userEvent.click(button);
         expect(handleClick).toHaveBeenCalled();
+    });
+
+    test('active behavior', ()=> {
+
+        render(
+            <Header
+                title={title}
+                names={names}
+                active={active}
+            />
+        );
+
+        const buttons = screen.getAllByRole('button');
+        expect(buttons[active].className).toMatch(styles.active);
     });
 })
