@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export default (ref, handler)=> {
+export default (ref, handler) => {
   useEffect(
     () => {
       const listener = (event) => {

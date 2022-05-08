@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import Item from '.';
-import styles from './item.module.css';
 
 describe('<Item />', ()=> {
     test('Render valid image', ()=> {
@@ -30,7 +29,7 @@ describe('<Item />', ()=> {
                 height={80}
             />
         );
-        const clickeable = container.querySelector('.' + styles.item);
+        const clickeable = container.querySelector('.item');
         expect(clickeable).toBeInTheDocument();
     })
 });

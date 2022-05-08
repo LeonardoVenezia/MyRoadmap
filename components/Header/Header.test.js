@@ -70,6 +70,6 @@ describe('<Header />', ()=> {
         );
 
         const buttons = screen.getAllByRole('button');
-        expect(buttons[active].className).toMatch(styles.active);
+        expect(buttons[active].className).toMatch('active');
     });
 })
